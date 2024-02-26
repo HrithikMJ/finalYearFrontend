@@ -9,17 +9,16 @@
   height: 100dvh;
 
 } */
-.Home{
+.Home {
   width: 100%;
   height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(215, 232, 247);
+  
 }
-/* .homeSection{
-
-} */
-.homeSection{
+.homeSection {
   height: 60dvh;
   width: 70%;
   display: flex;
@@ -29,7 +28,7 @@
   border-radius: 10px;
   padding: 25px;
 }
-.homeSection form{
+.homeSection form {
   height: 100%;
   width: 100%;
   display: flex;
@@ -37,18 +36,50 @@
   align-items: center;
   justify-content: space-around;
 }
-.homeSection form input {
+.homeSection form textarea, input {
   width: 100%;
   border-radius: 5px;
   border: none;
   padding: 10px;
   font-size: 1.5em;
+  resize: none;
+}
+.homeSection .homeContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+.homeSection .homeContainer span{
+  color: rgb(23, 23, 131);
+}
+.homeSection .homeContainer h1{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
 }
 
-.homeSection form #para{
+.homeSection form #para {
   height: 40%;
 }
-.homeSection form #keyWords{
-  height: 25%;
-  
+.homeSection form #keyWords {
+  height: 20%;
+}
+.homeSection form #submit {
+  width: 40%;
+  height: 10%;
+  background-color: rgb(251, 233, 211);
+}
+button{
+  width: 40%;
+  height: 10%;
+  background-color: rgb(251, 233, 211);
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
 }
